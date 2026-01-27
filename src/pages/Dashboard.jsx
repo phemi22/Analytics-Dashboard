@@ -36,7 +36,7 @@ const Dashboard = () => {
     <div className="bg-gray-100 min-h-screen">
       {/* Dashboard Header */}
       <Header 
-        title="Analytics Dashboard" 
+        title="Analytics Dashboard (2026 Refresh)" 
         onRefresh={fetchData} 
         onExport={handleExport} 
       />
