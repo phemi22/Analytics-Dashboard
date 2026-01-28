@@ -153,6 +153,7 @@ const Dashboard = ({ darkMode, onToggleDarkMode }) => {
                 data={filteredData}
                 sortConfig={sortConfig}
                 requestSort={requestSort}
+                darkMode={darkMode}
               />
             </div>
           </>
