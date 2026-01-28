@@ -1,80 +1,41 @@
-# React Dashboard App
+# Analytics Dashboard
 
-A data-driven interactive dashboard built with React, featuring charts, graphs, and real-time updates.
+A responsive analytics dashboard built with React to visualize key business metrics and insights.
+
+This project focuses on clean UI, reusable components, and interactive features commonly found in modern SaaS dashboards.
 
 ## Features
+- Dashboard layout with key performance indicators (KPIs)
+- Interactive charts and data visualization
+- Dark mode toggle for improved user experience
+- Reusable React components
+- Responsive design for desktop and mobile screens
 
-- **Interactive Charts**: Line charts, bar charts, and pie charts using Recharts
-- **Real-time Data Updates**: Data refreshes with simulated API calls
-- **Filtering & Sorting**: Filter by category and sort data in tables
-- **Export Functionality**: Export data to CSV
-- **Responsive Design**: Adapts to various screen sizes using Tailwind CSS
+## Tech Stack
+- React
+- JavaScript (ES6)
+- Tailwind CSS
+- Lucide React (icons)
+- Vite
 
-## Project Structure
-
-```
-dashboard-app/
-│
-├── public/              # Static files
-│
-├── src/
-│   ├── components/      # Reusable UI components
-│   │   ├── charts/      # Chart components using Recharts
-│   │   ├── dashboard/   # Dashboard-specific components
-│   │   └── layout/      # Layout components
-│   │
-│   ├── pages/           # Page components
-│   │   └── Dashboard.jsx
-│   │
-│   ├── utils/           # Utility functions
-│   │   ├── dataUtils.js # Data manipulation utilities
-│   │   └── exportUtils.js # Export functions
-│   │
-│   ├── hooks/           # Custom React hooks
-│   │   └── useDashboardData.js
-│   │
-│   ├── constants/       # Application constants
-│   │   └── chartConstants.js
-│   │
-│   ├── App.jsx          # Main application component
-│   ├── index.js         # Application entry point
-│   └── index.css        # Global styles with Tailwind
-│
-├── package.json
-└── tailwind.config.js   # Tailwind CSS configuration
-```
+## Live Demo
+https://analytics-dashboard-three-xi.vercel.app/
 
 ## Getting Started
 
-1. Clone the repository
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Start the development server:
-   ```
-   npm start
-   ```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+To run this project locally:
 
-## Available Scripts
+```bash
+git clone https://github.com/phemi22/Analytics-Dashboard.git
+cd Analytics-Dashboard
+npm install
+npm run dev
 
-- `npm start` - Runs the app in development mode
-- `npm test` - Runs tests
-- `npm run build` - Builds the app for production
-- `npm run eject` - Ejects from Create React App
+## Key Takeaways
+- Built reusable React components
+- Managed UI state with React hooks
+- Applied conditional styling using Tailwind CSS
 
-## Technologies Used
-
-- React
-- Recharts for data visualization
-- Tailwind CSS for styling
-- Lucide React for icons
-
-## Future Enhancements
-
-- Add authentication
-- Implement dark mode
-- Connect to a real API
-- Add more chart types
-- Implement date range filtering
+## Planned Enhancements
+- Global dark mode support
+- Real API integration
