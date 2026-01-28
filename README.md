@@ -39,3 +39,7 @@ npm run dev
 ## Planned Enhancements
 - Global dark mode support
 - Real API integration
+
+## Screenshots
+![Dashboard Dark Mode](./screenshots/Dashboard%20-%20Dark%20mode.png)
+![Dashboard Light Mode](./screenshots/Dashboard%20-%20Light%20Mode.png)
