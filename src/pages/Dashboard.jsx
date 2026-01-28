@@ -59,18 +59,21 @@ const Dashboard = ({ darkMode, onToggleDarkMode }) => {
                 value={totalSales.toLocaleString()}
                 icon={<Filter size={24} className="text-blue-500" />}
                 change={5.8}
+                darkMode={darkMode}
               />
               <MetricCard
                 title="Total Revenue"
                 value={`$${totalRevenue.toLocaleString()}`}
                 icon={<Filter size={24} className="text-green-500" />}
                 change={7.2}
+                darkMode={darkMode}
               />
               <MetricCard
                 title="Total Profit"
                 value={`$${totalProfit.toLocaleString()}`}
                 icon={<Filter size={24} className="text-purple-500" />}
                 change={-2.3}
+                darkMode={darkMode}
               />
             </div>
 
